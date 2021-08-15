@@ -63,7 +63,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background: url(https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif);
+  background: url(images/cat.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,7 +77,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background: url(https://media.giphy.com/media/10zsjaH4g0GgmY/giphy.gif);
+  background: url(images/sponge.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,7 +91,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background: url(https://media.giphy.com/media/l0G17T58ZWdu7XcA0/giphy.gif);
+  background: url(images/contact.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
