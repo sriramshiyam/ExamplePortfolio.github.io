@@ -1,8 +1,6 @@
 body {
   margin: 0;
   font-size: 62.5%;
-  scroll-snap-type: y proximity;
-  overflow-y: scroll;
 }
 
 h1,
@@ -30,7 +28,6 @@ div {
   text-align: center;
   position: sticky;
   top: 0;
-  scroll-snap-align: start;
 }
 
 hr {
@@ -106,7 +103,7 @@ p {
 
 @media screen and (max-width: 480px) {
   #one {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
