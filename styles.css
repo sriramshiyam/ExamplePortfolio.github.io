@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-size: 62.5%;
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
+}
+
+h1,
+h2 {
+  font-family: "Roboto Mono", monospace;
+  display: inline;
+  margin: auto;
+  padding: 5px;
+  position: relative;
+}
+
+h1 {
+  margin-top: 40px;
+  text-shadow: 5px 5px black;
+}
+
+h2 {
+  text-shadow: 5px 3px black;
+}
+
+div {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  scroll-snap-align: start;
+}
+
+hr {
+  width: 50%;
+  border: 0;
+  border-top: 4px dotted white;
+}
+
+p {
+  line-height: 2;
+  letter-spacing: 2px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-shadow: 3px 3px black;
+}
+
+#one {
+  display: flex;
+  font-size: 1.8rem;
+  flex-direction: column;
+  justify-content: space-around;
+  background: linear-gradient(45deg, blue, #abd8fd);
+  color: rgb(233, 227, 227);
+}
+
+#on {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: url(https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+  color: rgb(241, 241, 241);
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+#three {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: url(https://media.giphy.com/media/10zsjaH4g0GgmY/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+  color: rgb(241, 241, 241);
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+#four {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: url(https://media.giphy.com/media/l0G17T58ZWdu7XcA0/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+  color: rgb(241, 241, 241);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 480px) {
+  #one {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  #one {
+    position: relative;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  #one {
+    font-size: 1.5rem;
+  }
+}
+
+#pro {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+#project {
+  width: 30%;
+  height: 30%;
+  margin: auto;
+}
+
+li {
+  margin-left: 0;
+}
